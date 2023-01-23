@@ -46,3 +46,11 @@ p {
 
 
 }
+
+@media only screen and (max-width: 1000px) {
+    .component {
+        width: 70%;
+    }
+
+
+}
