@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +14,7 @@ body {
     background-color: #fff;
     border-radius: 5%;
     text-align: center;
-    width: 20%;
-    /* height: 100vh; */
+    max-width: 315px;
     padding: 8px;
 }
 
@@ -35,21 +34,20 @@ h1 {
 p {
     color: #808080;
     font-size: 15px;
-    padding: 0px 12px;
+    padding: 0px 11.5px;
     margin-top: none;
 }
 
 @media only screen and (max-width: 800px) {
     .component {
-        width: 80%;
+        max-width: 300px;
     }
 
 
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
     .component {
         width: 70%;
-    }
+    } */
 
-}

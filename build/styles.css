@@ -1,0 +1,55 @@
+body {
+    background: #d5e1ef;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.component {
+    background-color: #fff;
+    border-radius: 5%;
+    text-align: center;
+    width: 20%;
+    /* height: 100vh; */
+    padding: 8px;
+}
+
+.qr-code {
+    border-radius: 5%;
+    width: 95%;
+    height: 95%;
+    margin-top: 8px;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 5px 15px;
+    font-family: 'Poppins';
+}
+
+p {
+    color: #808080;
+    font-size: 15px;
+    padding: 0px 12px;
+    margin-top: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .component {
+        width: 80%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .component {
+        width: 70%;
+    }
+
+}
